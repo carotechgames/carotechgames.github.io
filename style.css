@@ -1,0 +1,40 @@
+/* Define color variables for easy use */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --complementary-color: #db6f34; /* Orange */
+    --background-color: #f4f4f4; /* Light gray */
+    --text-color: #333333; /* Dark gray */
+}
+
+/* Apply colors to your site */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: var(--complementary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--complementary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: var(--primary-color);
+    }
